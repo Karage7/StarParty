@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+body {
+    margin: 0;
+    font-family: "Noto Sans JP", sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(0deg, #ccae9f 0%, #28305d 40%, #050847 80%) no-repeat #b08e7d;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.header {
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.constellation {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.constellation img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.constellation h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+.constellation p {
+    font-size: 1em;
+    margin-top: 10px;
+}
+img {
+    width: 100%; /* 親要素の幅に合わせる */
+    height: auto; /* アスペクト比を保つ */
+    max-width: 100%; /* 写真の実際の幅を超えない */
+}
